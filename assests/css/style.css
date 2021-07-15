@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* top part start */
+
+.container{
+    width: 1440px;
+    max-width: 100%;
+    background: #2D25A0;
+    height: 100vh;
+
+}
+section{
+    padding: 0 100px;
+}
+.flexbox{
+    display: flex;
+    
+}
+.hero-block{
+    width: 50%;
+}
+.section-title{
+    margin-top: 207px;
+}
+h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    top: 207px;
+
+}
+.cta-btn{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    display: inline-block;
+    padding: 10px 24px;
+    color: white;
+    margin-top: 20px;
+    outline: none;
+    transition: all 0.3s;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+
+.cta-btn:hover{
+    background-color:  #E02C6D;;
+    color: white;
+}
+.cta-btn:hover i{
+    transform: translateX(10px);
+}
+.cta-btn i{
+    transition: all 0.3s ease;
+    
+}
+
+
+
+
+.image img {
+    margin-top: 153px;
+    
+}
+img{
+  width: 556px;
+  height: 438px;
+   
+}
+/* end */
+/* top-players */
+
+
+.wrapper{
+    max-width: 1050px;
+    width: 100%;
+    height: 474px;
+    align-items: center;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+
+} 
+
+.player-blog img{
+    width: 300px;
+    height: 256px;
+}
+.player-blog{
+    
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    margin: 70px 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF; ;
+    
+   
+}
+.spacing{
+    margin-left:100px;
+    margin-top: 27px;
+    
+}
+.flex{
+    display: flex;
+    align-items: flex-start;
+   
+    flex-direction: row;
+}
+
+.card h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #18191F;
+    text-transform: capitalize;
+    margin-top: 15px;
+  
+    
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 15px;
+   line-height: 16px;
+    text-transform: lowercase;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+
+
+
+
+/* end */
+
+
+
+/* ...footer.... */
+
+footer{
+    width: 483px;
+    height: 213px;
+    margin-left: 415px;
+    margin-top: 200px;
+
+} 
+footer img{
+    width: 483px;
+    height: 110px;
+}
+.logo{
+    display: flex;
+   
+}
+.footer-menu{
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    
+    justify-content: center;
+}
+ ul li {
+        list-style: none;
+    }
+    
+ul li a{
+   padding: 10px;
+   align-items: center;
+   text-align: center;
+}
+
+ul li a i{
+   display: block;
+    color:slategrey;
+   
+}
+
+p{
+   margin-top: 10px;
+    text-align: center;
+    color: gray;
+    align-items: center;
+
+}
+
+
+/* ...extra marks */
+.gap{
+    margin-top: 140px;
+}
+
+
+
+
+/* MEDIA QUARIES */
+
+
+@media (max-width: 991.98px) {
+    .container{
+        max-width: 700px;
+        padding:0,  26px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .flex-box{
+        justify-content: center;
+        flex-direction: column;
+       
+        }
+        .hero-block{
+            width: 100%;
+            
+        }
+
+        .image img{
+            width: 329px;
+            height: 259px;
+        }
+
+        .wrapper{
+            max-width: 600px;
+            width: 100%;
+            height: 300px;
+            align-items: center;
+        }
+        .top-players{
+        
+            
+        
+        } 
+        
+        
+        .player-blog img{
+            width: 300px;
+            height: 156px;
+        }
+        .player-blog{
+            
+            width: 330px;
+            height: 274px;
+            padding: 15px;
+            margin: 70px 30px;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            background-color: #FFFFFF; ;
+            
+           
+        }
+        .spacing{
+            margin-left:100px;
+            margin-top: 27px;
+            
+        }
+        .flex{
+            
+           
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        
+        .card h2{
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            line-height: 40px;
+            color: #18191F;
+            text-transform: capitalize;
+            margin-top: 15px;
+          
+            
+        }
+        .card p{
+            font-size: 8px;
+            margin-bottom: 15px;
+           line-height: 8px;
+            text-transform: lowercase;
+            color: #6C6C6C;
+            text-align: justify;
+        }
+        
+        
+
+
+
+        footer{
+
+    width: 283px;
+    height: 113px;
+    margin-left: 115px;
+    margin-top: 100px
+
+        }
+
+        footer img{
+            width: 283px;
+            height: 80px;
+        }  
+
+
+    }
